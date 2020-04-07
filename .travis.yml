@@ -1,0 +1,11 @@
+language: node_js
+sudo: false
+
+install:
+  - yarn install
+
+script:
+  - yarn coverage
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
