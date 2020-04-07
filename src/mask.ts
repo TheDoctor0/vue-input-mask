@@ -13,10 +13,7 @@ const apply = (rawInput: string, inputMask: string, escapedCharacters: number): 
     char = mask[mask.length - 2];
 
     if (tokens[char]?.pattern?.test(nextChar)) {
-      input.push(tokens[char].transform
-        ? tokens[char].transform(nextChar)
-        : nextChar
-      );
+      input.push(nextChar);
     }
 
     return {
@@ -30,10 +27,7 @@ const apply = (rawInput: string, inputMask: string, escapedCharacters: number): 
       char = mask[mask.length - 2];
 
       if (tokens[char]?.pattern?.test(nextChar)) {
-        input.push(tokens[char].transform
-          ? tokens[char].transform(nextChar)
-          : nextChar
-        );
+        input.push(nextChar);
       }
     }
 
