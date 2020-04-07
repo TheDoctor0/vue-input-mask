@@ -1,15 +1,15 @@
-# Vue Input Mask
+# Vue Input Mask [![Build Status](https://travis-ci.org/TheDoctor0/vue-input-mask.png)](https://travis-ci.org/TheDoctor0/vue-input-mask) [![codecov](https://codecov.io/gh/TheDoctor0/vue-input-mask/branch/master/graph/badge.svg)](https://codecov.io/gh/TheDoctor0/vue-input-mask) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ece5812eaab84684be369ba6534a8614)](https://app.codacy.com/app/dawid.janik95/vue-input-mask) [![License](https://img.shields.io/github/license/TheDoctor0/vue-input-mask.svg)](https://github.com/TheDoctor0/vue-input-mask/blob/master/LICENSE)
 
 Input mask directive for Vue.js - lightweight, dependency free, written in TypeScript.
 
 ## Install
 NPM
-```
+```shell
 npm i -S @thedoctor0/vue-input-mask
 ```
 
 Yarn
-```
+```shell
 yarn add @thedoctor0/vue-input-mask
 ```
 
