@@ -1,5 +1,7 @@
 # Vue Input Mask
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/89923bc459e645518e61830e81655e07)](https://app.codacy.com/manual/dawid.janik95/vue-input-mask?utm_source=github.com&utm_medium=referral&utm_content=TheDoctor0/vue-input-mask&utm_campaign=Badge_Grade_Dashboard)
+
 Input mask directive for Vue.js - lightweight, dependency free, written in TypeScript.
 
 ## Install
