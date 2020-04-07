@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "allowJs": false,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "dist"
+  ]
+}

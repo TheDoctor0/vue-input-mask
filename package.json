@@ -1,0 +1,35 @@
+{
+  "name": "@thedoctor0/vue-input-mask",
+  "description": "Input mask directive for Vue.js - lightweight, dependency free, written in TypeScript.",
+  "version": "1.0.0",
+  "author": "Dawid Janik",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "prettier": "prettier --write src/**/*.ts",
+    "coverage": "jest --coverage",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDoctor0/vue-input-mask.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheDoctor0/vue-input-mask/issues"
+  },
+  "homepage": "https://github.com/TheDoctor0/vue-input-mask",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.2.1",
+    "prettier": "^2.0.4",
+    "ts-jest": "^25.2.1",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
+}
