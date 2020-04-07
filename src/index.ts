@@ -20,7 +20,7 @@ export default {
     const raw: string = demask(element.value, value);
 
     element.value = masked;
-    element.setAttribute('mask-raw-value', raw);
+    element.setAttribute('raw-value', raw);
     element.dispatchEvent(new CustomEvent('input'));
   },
 
@@ -40,7 +40,7 @@ export default {
       const raw: string = demask(masked, value);
 
       element.value = masked;
-      element.setAttribute('mask-raw-value', raw);
+      element.setAttribute('raw-value', raw);
       element.dispatchEvent(new CustomEvent('input'));
     };
 
