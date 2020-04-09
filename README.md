@@ -1,4 +1,8 @@
-# Vue Input Mask [![Build Status](https://travis-ci.org/TheDoctor0/vue-input-mask.png)](https://travis-ci.org/TheDoctor0/vue-input-mask) [![codecov](https://codecov.io/gh/TheDoctor0/vue-input-mask/branch/master/graph/badge.svg)](https://codecov.io/gh/TheDoctor0/vue-input-mask) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ece5812eaab84684be369ba6534a8614)](https://app.codacy.com/app/dawid.janik95/vue-input-mask) [![License](https://img.shields.io/github/license/TheDoctor0/vue-input-mask.svg)](https://github.com/TheDoctor0/vue-input-mask/blob/master/LICENSE)
+# Vue Input Mask
+
+[![npm](https://img.shields.io/npm/v/@thedoctor0/vue-input-mask.svg)](https://www.npmjs.com/package/@thedoctor0/vue-input-mask)
+[![Github file size](https://img.shields.io/github/size/TheDoctor0/vue-input-mask/dist/vue-input-mask.min.js.svg)](https://raw.githubusercontent.com/TheDoctor0/vue-input-mask/master/dist/vue-input-mask.min.js)
+[![npm](https://img.shields.io/npm/dm/@thedoctor0/vue-input-mask.svg)](https://www.npmjs.com/package/@thedoctor0/vue-input-mask) [![Build Status](https://travis-ci.org/TheDoctor0/vue-input-mask.png)](https://travis-ci.org/TheDoctor0/vue-input-mask) [![codecov](https://codecov.io/gh/TheDoctor0/vue-input-mask/branch/master/graph/badge.svg)](https://codecov.io/gh/TheDoctor0/vue-input-mask) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ece5812eaab84684be369ba6534a8614)](https://app.codacy.com/app/dawid.janik95/vue-input-mask) [![License](https://img.shields.io/github/license/TheDoctor0/vue-input-mask.svg)](https://github.com/TheDoctor0/vue-input-mask/blob/master/LICENSE)
 
 Input mask directive for Vue.js - lightweight, dependency free, written in TypeScript.
 
