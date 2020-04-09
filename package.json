@@ -9,11 +9,12 @@
     "dist/"
   ],
   "scripts": {
+    "webpack": "npx webpack --mode=production",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "prettier": "prettier --write src/**/*.ts",
     "coverage": "jest --coverage",
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc && yarn webpack"
   },
   "repository": {
     "type": "git",
@@ -28,8 +29,11 @@
     "jest": "^25.2.1",
     "prettier": "^2.0.4",
     "ts-jest": "^25.2.1",
+    "ts-loader": "^6.2.2",
     "tslint": "^6.1.1",
-    "typescript": "^3.8.3"
-  },
-  "dependencies": {}
+    "typescript": "^3.8.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
 }
