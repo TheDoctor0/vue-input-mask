@@ -11,3 +11,4 @@ var tokens = {
     'A': { pattern: /[a-zA-Z]/, transform: function (value) { return value.toLocaleUpperCase(); }, untransform: function (value) { return value.toLocaleLowerCase(); } },
 };
 exports.default = tokens;
+//# sourceMappingURL=tokens.js.map

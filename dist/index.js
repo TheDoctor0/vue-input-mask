@@ -46,3 +46,4 @@ exports.default = {
         element.removeEventListener('input', element.maskInput);
     },
 };
+//# sourceMappingURL=index.js.map

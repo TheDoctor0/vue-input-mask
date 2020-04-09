@@ -15,9 +15,7 @@ var apply = function (rawInput, inputMask, escapedCharacters) {
     if ((_a = tokens_1.default[mask[position]]) === null || _a === void 0 ? void 0 : _a.skip) {
         char = mask[mask.length - 2];
         if ((_c = (_b = tokens_1.default[char]) === null || _b === void 0 ? void 0 : _b.pattern) === null || _c === void 0 ? void 0 : _c.test(nextChar)) {
-            input.push(tokens_1.default[char].transform
-                ? tokens_1.default[char].transform(nextChar)
-                : nextChar);
+            input.push(nextChar);
         }
         return {
             escaped: escaped,
@@ -28,9 +26,7 @@ var apply = function (rawInput, inputMask, escapedCharacters) {
         if ((_d = tokens_1.default[mask[mask.length - 1]]) === null || _d === void 0 ? void 0 : _d.skip) {
             char = mask[mask.length - 2];
             if ((_f = (_e = tokens_1.default[char]) === null || _e === void 0 ? void 0 : _e.pattern) === null || _f === void 0 ? void 0 : _f.test(nextChar)) {
-                input.push(tokens_1.default[char].transform
-                    ? tokens_1.default[char].transform(nextChar)
-                    : nextChar);
+                input.push(nextChar);
             }
         }
         return {
@@ -92,3 +88,4 @@ var mask = function (rawInput, inputMask) {
     return maskedInput;
 };
 exports.default = mask;
+//# sourceMappingURL=mask.js.map

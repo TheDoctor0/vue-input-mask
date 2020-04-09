@@ -29,3 +29,4 @@ var demask = function (maskedInput, inputMask) {
     return input.join('');
 };
 exports.default = demask;
+//# sourceMappingURL=demask.js.map
