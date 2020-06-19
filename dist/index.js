@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.demask = exports.mask = void 0;
 var demask_1 = __importDefault(require("./demask"));
 exports.demask = demask_1.default;
 var mask_1 = __importDefault(require("./mask"));
