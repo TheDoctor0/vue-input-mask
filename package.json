@@ -1,7 +1,14 @@
 {
   "name": "@thedoctor0/vue-input-mask",
   "description": "Input mask directive for Vue.js - lightweight, dependency free, written in TypeScript.",
-  "version": "1.0.4",
+  "keywords": [
+    "vue.js",
+    "vue",
+    "input",
+    "mask",
+    "typescript"
+  ],
+  "version": "1.0.6",
   "author": "Dawid Janik",
   "license": "MIT",
   "main": "dist/index.js",
