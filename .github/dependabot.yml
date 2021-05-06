@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  reviewers:
+  - TheDoctor0
+  assignees:
+  - TheDoctor0
+  ignore:
+  - dependency-name: ts-loader
+    versions:
+    - 9.0.0
