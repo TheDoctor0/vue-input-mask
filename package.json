@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/TheDoctor0/vue-input-mask",
   "devDependencies": {
-    "@types/jest": "^26.0.0",
+    "@types/jest": "^27.0.0",
     "jest": "^25.2.1",
     "prettier": "^2.0.4",
     "ts-jest": "^25.2.1",
